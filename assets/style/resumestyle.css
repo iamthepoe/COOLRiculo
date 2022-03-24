@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: #131219;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+::-webkit-scrollbar{
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(transparent, purple);
+    border-radius: 6px;
+}
+
+header{
+	width: 100%;
+	height: 20vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+header > a{
+	text-decoration: none;
+	color: #8524d1;
+}
+
+main{
+	display: flex;
+	width: 100%;
+	height: 80vh;
+	justify-content: center;
+	align-items: center;
+}
+
+.resume{
+	display: flex;
+	width: 100%;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.info, .description{
+	width: 50%;
+	height: 40vh;
+	display: flex;
+	background-color: rgba(0, 0, 0, 0.50);
+	color: white;
+	margin: 10px;
+	overflow: auto;
+}
+
+.description{
+	justify-content: center;
+	align-items: center;
+}
+.info{
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.info span{
+	margin: 3px;
+}
